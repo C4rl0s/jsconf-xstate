@@ -1,0 +1,21 @@
+{
+  "name": "js-conf-xstate",
+  "version": "1.0.0",
+  "description": "JS Conf Mexico XState workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel ./src/**/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Avendaño",
+  "license": "MIT",
+  "dependencies": {
+    "xstate": "^4.9.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "concurrently": "^5.2.0",
+    "parcel": "^2.0.1",
+    "sass": "1.23.7"
+  }
+}
