@@ -9,5 +9,5 @@
 - Clona este repo.
 - Instala parcel `npm install --save-dev parcel`.
 - `npm install`.
-- `npx parcel src/index.html`.
+- `npm start`.
 - http://localhost:1234/
