@@ -52,6 +52,14 @@ function send(event) {
 
 window.send = send;
 
+eventos = ["mouseenter","mouseleave"];
+eventos.forEach(function(e){
+    elBoton.addEventListener(e,function(){
+        send(e.toUpperCase());
+    })
+});
+
+/*
 elBoton.addEventListener("mouseenter", () => {
   send('MOUSEENTER');
 });
@@ -59,3 +67,4 @@ elBoton.addEventListener("mouseenter", () => {
 elBoton.addEventListener("mouseleave", () => {
     send('MOUSELEAVE');
   });
+*/
