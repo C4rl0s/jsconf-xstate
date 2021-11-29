@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Conf MX - Signup form</title>
+    <link rel="stylesheet" href="./style.scss" />
+  </head>
+  <body>
+    <header>
+      <h1>Signup</h1>
+    </header>
+    <main>
+      <div id="main-container">
+        <form>
+          <div class="email-block">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="secret-block">
+            <label for="secret">Secret</label>
+            <input type="password" id="secret" size="10" required />
+          </div>
+          <button type="submit" id="the-button">
+              <span id="output"></span>
+          </button>
+        </form>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
